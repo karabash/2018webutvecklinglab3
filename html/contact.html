@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1" />
+    <link href="../css/styles.css" rel="stylesheet" />
+    <title>Contact</title>
+
+</head>
+
+<body id="contact">
+
+
+
+    <header class="upper_header">
+        <h1>Djupviks Hamn</h1>
+    </header>
+
+    <nav class="nav_bar">
+
+        <ul>
+            <li><a href="../index.html ">Start</a> </li>
+            <li><a href="guest.html" class="active">Gästplatser</a> </li>
+            <li> <a href="history.html">Historia</a></li>
+            <li><a href="#" class="active">Kontakt</a></li>
+            <li><a href="members.html">Medlemsinfo</a></li>
+            <li><a href="tourist_destinations.html">Turistmål</a></li>
+            <li><a href="english.html "> English</a></li>
+
+
+
+        </ul>
+    </nav>
+
+    <article id="kontaktuppgifter">
+
+        <h3>Kontaktuppgifter</h3>
+        <p>Hamnfogde Bo Lautin, <strong><a href="tel:0707-920310">mobil 0707-920310</a></strong></p>
+        <h4>Djupviks hamnförening</h4>
+        <p>c/o Ekholm</p>
+        <p>Eksta Hägur 170</p>
+        <p>623 54 Klintehamn</p>
+
+
+    </article>
+    <form id="contact_form">
+        <h3>Kontaktformulär</h3>
+
+        <ul>
+            <li>
+                <label for="name">Namn / Name</label>
+                <input type="text" name="name" id="name" required />
+            </li>
+
+            <li>
+                <label for="subject">Ärende / Subject</label>
+                <select id="subject" name="subject" required>
+                        <option value="" selected>Välj ett ärende/Choose a subject</option>
+                        <option value="Båtplats / Boat spot">Båtplats / Boat spot</option>
+                        <option value="Medlemskap / Membership">Medlemskap / Membership</option>
+                        <option value="Övrigt / Other">Övrigt / Other</option>
+                    </select>
+            </li>
+
+
+            <li>
+                <label for="method">Vi kontaktar dig / We contact you</label>
+                <select id="method" name="method" required>
+                        <option value="" selected>Välj/Choose</option>
+                        <option value="email">Via e-post / By email</option>
+                        <option value="phone">Via telefon / By phone</option>
+                        <option value="no">Kontakta mig inte / Don't contact me</option>
+                    </select>
+            </li>
+
+            <li>
+                <label for="email">E-postadress / Email address</label>
+                <input type="email" name="email" id="email" />
+            </li>
+
+            <li>
+                <label for="phone">Telefonnummer / Phone number</label>
+                <input type="tel" name="phone" id="phone" />
+            </li>
+
+            <li>
+                <label for="message">Kommentarer / Comments</label>
+                <textarea cols="30" rows="6" name="message" id="message"></textarea>
+            </li>
+            <li><input type="submit" value="Skicka / Send" /></li>
+
+
+        </ul>
+    </form>
+
+    <footer id="contact_footer">
+        <p> &copy; Copyright 2019 <a href="Djupvikshamn.se ">Djupvikshamn.</a> All rights reserved. | Mail to: <a href="mailto:djupvikshamn.se">info@djupvikshamn.se</a> </p>
+    </footer>
+</body>
+
+</html>
